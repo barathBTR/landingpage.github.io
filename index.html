@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible"content="IE-egde">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>NEW FASHION</title>
+    <link rel="stylesheet"  href="./styles.css" >
+</head>
+
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">NEW FASHION</h1>
+        <ul class="nav-links">
+            <li class="Active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Search</li>
+            <li><a href="#"></a>Liked</li>
+            <li><a href="#"></a>Bag</li>
+            <li><a href="#"></a>About Us</li>
+            <li class="ctn"><a href="#"></a>contact</li>
+        </ul>
+        <img src="./img/menubtn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="website-header">
+            <h2>Explore the fashion</h2>
+            <div class="line"></div>
+            <h1>GET YOURSELF INTO THE RIGHT GEAR</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+       
+    </header> 
+
+    <section class="events">
+        <div class="title">
+            <h1>SPRING HUNT</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/headpic.jpeg" alt="">
+                <h4>MUTED SWEATS</h4>
+                <P>Refresh your rotation</P>
+                <a href="#" class="ctn">View</a>
+            </div>
+            <div class="col">
+                <img src="./img/headpic1.jpeg" alt="">
+                <h4>RELAXED FIT </h4>
+                <P>Make Your Treand</P>
+                <a href="#" class="ctn">View</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="new">
+        <div class="new-content">
+            <h1>Explore the best of our brand</h1>
+        <a href="#" class="ctn">Explore</a>
+        </div>
+    </section>
+
+    <script>
+        const menuBtn=document.querySelector('.menu-btn')
+        const navlinks=document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
+
